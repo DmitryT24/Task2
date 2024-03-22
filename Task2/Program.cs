@@ -30,6 +30,7 @@ class Task2
             else
             {
                 Console.WriteLine("Путь введен не корректно! Перезапустите программу и попробуйте снова!");
+                Console.ReadKey();
                 return;
             }
         }
@@ -37,6 +38,7 @@ class Task2
         if (!Directory.Exists(pathCatalog))
         {
             Console.WriteLine("Путь введен не корректно! Перезапустите программу и попробуйте снова!");
+            Console.ReadKey();
 
             return;
         }
